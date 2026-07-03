@@ -20,72 +20,125 @@
     
 }
 .mapaCidade{
-    display: flex;
-    flex-direction: column;
-    position:relative;
-    margin-top:0%;
+    position: relative;
+    margin-top: 24px;
     padding-bottom: 5%;
 }
+.mapaCidadeCard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 0;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 16px 28px;
+    box-shadow: 0 4px 24px rgba(33,33,33,0.08);
+}
+.mapaCidadeToolbar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 0;
+}
+.mapaCidadeToolbarTitulo{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #73937E;
+}
+.mapaCidadeCorpo{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
 .mapSvg{
-    width:100%;
-    
-    overflow: auto;
+    width: 100%;
+    background-color: #F1FFFA;
+    border-radius: 16px;
+    padding: 12px;
     overflow: hidden;
 }
 .mapSvg svg{
-    margin-top:0%; 
-    width:100%;
-    
-    margin-left:20%;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 420px;
 }
 
 
 /* texto */
 
 .linksCidades{
-    width:100%;
-    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
 .barraPesquisa{
+    position: relative;
     display: flex;
-    
+    align-items: center;
+}
+.iconeBusca{
+    position: absolute;
+    left: 14px;
+    color: #9a9a9a;
+    pointer-events: none;
 }
 .barraPesquisa input{
-    margin-top:8%;
-    width:100%;
+    width: 100%;
+    padding: 12px 16px 12px 40px;
+    border: 1px solid #e0ded1;
+    border-radius: 12px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color .2s, box-shadow .2s;
 }
-.barraPesquisa button{
-    width:20%;
-    margin-left:5%;
+.barraPesquisa input:focus{
+    border-color: #73937E;
+    box-shadow: 0 0 0 3px rgba(115,147,126,0.15);
+}
+.resultado{
+    max-height: 420px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 4px 8px;
 }
 .tabelaNomeCidade{
-    display:flex;
-   flex-wrap: wrap;
-   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .tabelaNomeCidade li{
-    width:50%;
-    margin-top:2%;
     font-size: 16px;
 }
 .tabelaNomeCidade li a{
+    display: block;
+    padding: 8px 8px;
+    border-radius: 8px;
     text-decoration: none;
-    color:black;
-    font-size:12px;
+    color: #333;
+    font-size: 13px;
+    transition: background-color .15s, color .15s;
 }
 .tabelaNomeCidade li a:hover{
-    
-    color:blue;
+    background-color: #F1FFFA;
+    color: #1B998B;
 }
 
 @media screen and (min-width: 992px){
     .tituloPerfilCidade{
-        
+
         flex-direction: row;
         justify-content: space-between;
     }
     .tituloPerfilCidade h1{
-        
+
         width:700px;
         display:flex;
         justify-content:flex-end;
@@ -93,25 +146,26 @@
     .propagandaPerfilCidade{
         width: 320px;
         height:90px;
-        
+
     }
-    .mapaCidade{
+    .mapaCidadeCard{
+        padding: 28px 32px 32px;
+    }
+    .mapaCidadeCorpo{
         flex-direction: row;
-        margin-top:2%;
+        align-items: flex-start;
     }
     .mapSvg{
-        width:50%;
+        width: 56%;
+        padding: 20px;
     }
     .mapSvg svg{
-        margin-top:10%; 
-        width:120%;
-        margin-left:0%;
+        max-width: 100%;
     }
     .linksCidades{
-        width:50%;
+        width: 44%;
     }
     .tabelaNomeCidade li a{
-        
-        font-size:16px;
+        font-size:15px;
     }
 }

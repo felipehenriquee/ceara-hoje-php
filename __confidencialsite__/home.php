@@ -18,6 +18,7 @@
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/junte.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/ceara.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/mapaID.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/legendaRegioes.css"/>
         
         <link rel="stylesheet" href="css/geral/gallery.theme.css">
         <link rel="stylesheet" href="css/geral/gallery.min.css">

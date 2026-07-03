@@ -18,6 +18,8 @@
     .st17{fill:none;stroke:#212121;stroke-width:4;stroke-miterlimit:10;}
     .st18{fill: #EDD382; stroke:#212121;stroke-miterlimit:10;}
     .st19{fill:blue;}
+    .st20{fill:#1B998B;stroke:#212121;stroke-miterlimit:10;}
+    .st-inativo{fill:#E5E5E5;stroke:#cfcfcf;stroke-miterlimit:10;opacity:0.6;}
 
 .linkCidade:hover{
     cursor: pointer;

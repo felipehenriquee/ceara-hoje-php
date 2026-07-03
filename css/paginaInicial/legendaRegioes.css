@@ -1,0 +1,58 @@
+.legendaRegioes{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 2px 2px 8px;
+    scrollbar-width: thin;
+}
+.legendaRegioes::-webkit-scrollbar{
+    height: 4px;
+}
+.legendaRegioes::-webkit-scrollbar-thumb{
+    background-color: #d6d1b1;
+    border-radius: 4px;
+}
+.regiaoBtn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 14px;
+    border: 1px solid #e0ded1;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 13px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: background-color .2s, border-color .2s, transform .1s;
+}
+.regiaoBtn:hover{
+    background-color: #F1FFFA;
+    border-color: #73937E;
+}
+.regiaoBtn:active{
+    transform: scale(0.97);
+}
+.regiaoBtn.ativo{
+    background-color: #212121;
+    border-color: #212121;
+    color: #fff;
+}
+.regiaoCor{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #212121;
+    flex-shrink: 0;
+}
+
+@media screen and (min-width: 992px){
+    .legendaRegioes{
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+    .regiaoBtn{
+        font-size: 12.5px;
+    }
+}
