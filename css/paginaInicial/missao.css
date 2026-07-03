@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.divMissao{
+    font-family: 'Roboto', sans-serif;
+    padding-top:2%;
+    
+}
+.divMissao h1{
+    text-align: center;
+    font-size:30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom:2%;
+    margin-top:0%;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    padding-bottom:5%;
+    
+}
+.imagemLogo{
+    width:100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:3%;
+    
+    padding:0;
+}
+.imagemLogo p{
+    text-transform: uppercase;
+    font-size:10px;
+    margin-bottom:-10px;
+}
+/* .imagemLogo img{
+    width: 50%;
+} */
+
+.textoPortal{
+    
+    font-size:20px;
+    width:100%;
+    margin-left:2%;
+    margin-top:5%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+
+.textoNoticiaPrincipal{
+    font-size:20px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-left:2%;
+    margin-top:5%;
+    
+}
+.noticiaPrincipal{
+    display:flex;
+    margin-bottom: 3%;
+    width:100%;
+}
+.noticiaPrincipal a{
+    color:black;
+    text-decoration: none;
+}
+.noticiaImagemPrincipal{
+    
+    width:50%;
+    height:100%;
+    
+    background-size: cover;
+    
+    
+}
+.fotoDaNoticia{
+    border-radius: 7px;;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.manchete{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left:2%;
+    
+}
+.textoNoticiaPrincipal h3{
+    font-size: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    color:blue;
+    margin-bottom: -2%;
+}
+.textoNoticiaPrincipal h1{
+    font-size: 14px;
+    text-align: left;
+    margin-top:5%;
+}
+.textoNoticiaPrincipal h2{
+    font-size: 10px;
+    text-align: left;
+    
+}
+.textoNoticiaPrincipal h1:hover{
+    color:blue;
+}
+
+
+
+ /* Missao2.html */
+ .conteudo2{
+    margin-top:10%;
+}
+.missao2{
+    padding-top:20%;
+
+}
+ .textoMissao2{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom:10%;
+}
+.textoMissao2 p{
+    width:100%;
+    font-size:14px;
+    margin-top: 15%;
+}
+.imagemLogo2{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    
+}
+.imagemLogo2 img{
+    width:80%;
+}
+.resultado{
+    height:700px;
+    overflow: auto;
+    
+}
+
+.resultado ::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+.resultado::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+} 
+
+
+@media screen and (min-width: 992px){
+    .divMissao h1{
+        font-size:40px;
+        margin-bottom:0%;
+       
+    }
+    
+    .conteudo{
+        flex-direction: row;
+        height: 600px;
+        
+        justify-content: space-between;
+    }
+
+    .imagemLogo{
+        width: 320px;
+        
+    }
+    
+    
+    
+    .textoNoticiaPrincipal{  
+        width:700px; 
+       
+    }
+    .textoNoticiaPrincipal h3{
+        font-size: 12px;
+        text-align: left;
+        text-transform: uppercase;
+        color:blue;
+        
+    }
+    .textoNoticiaPrincipal h1{
+        font-size: 20px;
+        text-align: left;
+    }
+    .textoNoticiaPrincipal h2{
+        font-size: 14px;
+        text-align: left;
+        
+    }
+
+
+     /* Missao2.html */
+     .conteudo2{
+        margin-top:2%;
+    }
+    .missao2{
+        padding-top:2%;
+    
+    }
+    .textoMissao2{
+        display: flex;
+        flex-direction: row;
+    }
+    .textoMissao2 p{
+        width:50%;
+        font-size:22px;
+        margin-top:0;
+    }
+    .imagemLogo2{
+        width:50%;   
+        margin-left:15%;
+    }
+    .textoMissao2{
+        margin-top: 5%;
+    }
+    .imagemLogo2 img{
+        width:100%
+    }
+    
+    
+    
+   
+}

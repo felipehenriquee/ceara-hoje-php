@@ -1,0 +1,40 @@
+.divJunte{
+    
+    padding-top:20%;
+   
+}
+.conteudoJunte{
+    display:flex;
+    flex-direction: column-reverse;
+}
+.textoPortal{
+    width:100%;
+}
+.imagemJunte{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding:0;
+}
+.imagemJunte img{
+    width:70%;
+    
+}
+@media screen and (min-width: 992px){
+    .divJunte{
+        padding-top:0%;    
+    }
+    .conteudoJunte{
+        display:flex;
+        flex-direction: row;
+    }
+    .textoPortal{
+        width:50%;
+    }
+    .imagemJunte{
+        width:50%;
+        
+    }
+    
+    
+}

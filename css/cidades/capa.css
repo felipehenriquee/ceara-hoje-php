@@ -1,0 +1,32 @@
+@font-face {
+    font-family: bign;
+    src: url('../../font/bign.ttf');
+}
+.textosCapa{
+    position: relative;
+    z-index:100;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    height:100vh;
+    width:100%;
+    background-size:cover;
+}
+.titulo{
+    height:100vh;
+    width:100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.titulo h1{
+    font-family: 'bign';
+    font-weight: 500;
+    font-size:10vw;
+    
+}
+

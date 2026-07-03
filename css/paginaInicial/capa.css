@@ -1,0 +1,159 @@
+
+
+@font-face {
+    font-family: bign;
+    src: url('../../font/bign.ttf');
+}
+
+.textosCapa{
+    position:absolute;
+    z-index:100;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    padding-top:5%;
+    height:100vh;
+    width:100%;
+    background-color: white;
+}
+.textosCapa img{
+    width:100%;
+}
+.item-capa{
+    
+    height:100vh;
+    width:50vw;
+    background-size: cover;
+    background-position:center;
+    background-color: white; 
+    align-items: center;
+}
+.active h1 img{
+    /* animation: fadeIn 3s; */
+    /*  */
+}
+
+.carousel-item h1{
+    font-size: 100px;
+}
+.ci-1{
+    background-image: url('../../__confidencialsite__/assets/capa/gente.jpg');
+    /* gente */
+}
+.ci-2{
+    background-image: url('../../__confidencialsite__/assets/capa/terrra.jpg');
+/* terra */
+}
+.ci-3{
+    background-image: url('../../__confidencialsite__/assets/capa/capa.jpg');
+/* historia */
+}
+.ci-4{
+    background-image: url('../../__confidencialsite__/assets/capa/historia.jpg');
+/* cultura */
+}
+.ci-5{
+    background-image: url('../../__confidencialsite__/assets/capa/raizes.jpg');
+    /* raízes */
+}
+.ci-6{
+    background-image: url('../../__confidencialsite__/assets/capa/cultura.jpg');
+    /* tradição */
+}
+.ci-7{
+    background-image: url('../../__confidencialsite__/assets/capa/capa.jpg');
+    /* capa */
+}
+
+.titulo{
+    height:100%;
+    width:100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.titulo h1{
+    font-family: 'bign';
+    font-weight: 500;
+    font-size:10vw;
+    
+}
+.fonteBranca{
+    color:white;
+}
+.titulo img{
+    width:50%;
+}
+
+@keyframes fadeIn{
+    from{   
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
+
+
+#carouselBeadManRedding {
+    background-color: #000;
+}
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out 1s;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+.carousel.carousel-fade .carousel-item:first-child {
+    top: auto;
+    position: relative;
+    transition: opacity ease-out 2s;
+}
+.carousel.carousel-fade .carousel-item:second-child {
+    top: auto;
+    position: relative;
+    transition: opacity ease-out 1s;
+} 
+/* .carousel-item .img-fluid {
+    margin: 0 auto;
+} 
+ .carousel img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}  */
+/* .active h1{
+    animation: fadeIn 3s;
+}
+.active img{
+    animation: fadeIn 3s;
+} */
+.fechaTudo{
+    display: none;
+}
+@media screen and (min-width: 992px){
+    .textosCapa img{
+        width:75%;
+    }
+}
+@media screen and (max-width: 560px){
+    .cadaTela{
+        flex-direction: column;
+    }
+    .item-capa{
+    
+        height:50vh;
+        width:100vw;
+        
+    }
+}

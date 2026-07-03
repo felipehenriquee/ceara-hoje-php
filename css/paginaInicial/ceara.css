@@ -1,0 +1,107 @@
+.paginaCeara{
+    padding-top:20%;
+}
+
+.imgMapa{
+    margin-top:20px;
+}
+.imgMapa {
+    width:100%;
+}
+#ceara{
+    font-family: 'Roboto', sans-serif;
+    padding-top:3%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 10vw;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 10vw;
+  color: black;
+}
+
+.conteudoPaginas{
+    display:flex;
+    flex-direction: column;
+    padding:10%;
+}
+.imgPagina1{
+    width:100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.imgPagina1 img{
+    width:90%;
+}
+
+.carouselItemCeara{
+    width:100vw;
+    padding-bottom:2%; 
+}
+
+.textoPagina1{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width:100%;
+    margin-top:15%;
+}
+.textoPagina1 p{
+    
+    margin-top:0%;
+    font-size:18px;
+}
+.textoPagina1 h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight:600;
+}
+
+@media screen and (min-width: 992px){
+    .paginaCeara{
+        padding-top:0%;
+    }
+    .conteudoPaginas{
+        padding:0;
+        flex-direction: row;
+        height:80vh;
+        min-height:500px;
+        max-height:1000px;
+        
+    }
+    .carousel-control-next-icon:after
+    {
+    
+        font-size: 3vw;
+    
+    }
+
+    .carousel-control-prev-icon:after {
+        font-size: 3vw;
+    }
+    .textoPagina1{
+        margin-top:0%;
+    }
+
+}

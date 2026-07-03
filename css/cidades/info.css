@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.infoCidade{
+    width:320px;
+}
+.divInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media screen and (min-width: 992px){
+    .divInfo{
+        flex-direction: row;
+    }
+    .infoCidade{
+        width:700px;
+        
+    }
+}

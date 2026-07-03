@@ -1,0 +1,93 @@
+
+.linkPubli a{
+    text-decoration: none;
+}
+
+.textoPubli{
+    background-color: white;
+    font-size:10px;
+    color: gray;
+    height: 15px;
+    margin-left:-1%;
+    
+}
+.superBanner{
+    width:320px;
+    height:80px;
+   
+    margin-top:2%;
+    margin-bottom:2%;
+    display: flex;
+    color:white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bannerSelo{
+    width:60px;
+    height:60px;
+    background-color: green;
+    
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color:white;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.bannerHorizontal{
+    width:300px;
+    height:260px;
+    background-color:gray;
+    margin-top:2%;
+    margin-bottom:2%;
+    display: flex;
+    
+    font-size: 40px;
+    color:white;
+    
+}
+.bannerPequeno{
+    width:300px;
+    height:120px;
+    background-color:gray;
+    
+    margin-top:2%;
+    margin-bottom:2%;
+    display: flex;
+    
+    font-size: 20px;
+    color:white;
+    
+}
+.celular{
+    display: flex;
+}
+.computador{
+    display:none;
+}
+
+@media screen and (min-width: 992px){
+    
+    .superBanner{
+        width:1100px;
+        height:160px;
+        margin-top:2%;
+        margin-bottom:2%;
+        font-size: 80px;
+        color:white;
+        background-size: 100%;
+    }
+    .celular{
+        display: none;
+    }
+    .computador{
+        display:flex;
+    }
+    
+}

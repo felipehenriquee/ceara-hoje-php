@@ -1,0 +1,117 @@
+.divDestaque{
+    
+    padding-top:50px;
+    background-color: #F1FFFA;
+    
+}
+.tituloPerfilCidade{
+    display:flex;
+    flex-direction: column;
+}
+.tituloPerfilCidade h1{
+    
+}
+.propagandaPerfilCidade{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+    height:90px;
+    
+}
+.mapaCidade{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    margin-top:0%;
+    padding-bottom: 5%;
+}
+.mapSvg{
+    width:100%;
+    
+    overflow: auto;
+    overflow: hidden;
+}
+.mapSvg svg{
+    margin-top:0%; 
+    width:100%;
+    
+    margin-left:20%;
+}
+
+
+/* texto */
+
+.linksCidades{
+    width:100%;
+    
+}
+.barraPesquisa{
+    display: flex;
+    
+}
+.barraPesquisa input{
+    margin-top:8%;
+    width:100%;
+}
+.barraPesquisa button{
+    width:20%;
+    margin-left:5%;
+}
+.tabelaNomeCidade{
+    display:flex;
+   flex-wrap: wrap;
+   
+}
+.tabelaNomeCidade li{
+    width:50%;
+    margin-top:2%;
+    font-size: 16px;
+}
+.tabelaNomeCidade li a{
+    text-decoration: none;
+    color:black;
+    font-size:12px;
+}
+.tabelaNomeCidade li a:hover{
+    
+    color:blue;
+}
+
+@media screen and (min-width: 992px){
+    .tituloPerfilCidade{
+        
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .tituloPerfilCidade h1{
+        
+        width:700px;
+        display:flex;
+        justify-content:flex-end;
+    }
+    .propagandaPerfilCidade{
+        width: 320px;
+        height:90px;
+        
+    }
+    .mapaCidade{
+        flex-direction: row;
+        margin-top:2%;
+    }
+    .mapSvg{
+        width:50%;
+    }
+    .mapSvg svg{
+        margin-top:10%; 
+        width:120%;
+        margin-left:0%;
+    }
+    .linksCidades{
+        width:50%;
+    }
+    .tabelaNomeCidade li a{
+        
+        font-size:16px;
+    }
+}

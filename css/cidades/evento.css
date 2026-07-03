@@ -1,0 +1,72 @@
+
+.eventosCidade{
+    margin-top:5%;
+    height: auto;
+}
+.eventosCidade h1{
+    text-transform: uppercase;
+}
+.divEventos{
+    
+    flex-wrap: wrap;
+    margin-top:2%;
+    width:100%;
+}
+.divEventos a{
+    text-decoration: none;
+}
+.divEventos a:hover{
+    color:black;
+}
+.linkEvento{
+    width:27%;
+    margin-bottom:5%;
+    margin-left: 5%;
+    
+    color:#212121;
+}
+
+.imgEvento{
+    width:50%;
+    height:40vh;
+    min-height: 300px;
+    border-radius: 7px;
+    background-size:cover ;
+    background-position: center;
+}
+.cadaEvento{
+    display:flex;
+    width:100%;
+    margin-bottom:5%;
+}
+
+.infoEvento{
+    display:flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    padding-left:2%;
+    height:40vh;
+    min-height:300px;
+    
+    font-size:20px;
+    width:50%;
+}
+.infoEvento h2:hover{
+    color:blue;
+}
+.infoEvento h3{
+    margin-top:5%;
+    font-size:18px;
+}
+.dataPreco{
+    font-size:14px;
+}
+.divVejaMais{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:2%;
+    width:100%;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom:10%;
+}

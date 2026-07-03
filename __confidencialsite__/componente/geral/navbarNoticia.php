@@ -1,0 +1,41 @@
+<div class="container-flex barra-cima bg-light naoFixo sombra">
+  <div class="container-flex">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <a class="navbar-brand" href="/home">
+        <img src="https://firebasestorage.googleapis.com/v0/b/bird-16da9.appspot.com/o/portal%2FlogoHorizontal.png?alt=media&token=c74b8ef5-d96e-45a8-a9f3-28c81baabdb9" class="d-inline-block align-top" alt="">
+       
+      </a>
+        
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+
+        </span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/home">Página Inicial<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/noticias">Notícias</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/eventos">Eventos</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/classificados">Classificados</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/contato">Contato</a>
+          </li>
+          
+          
+          
+          
+        </ul>
+        
+      </div>
+    </nav>
+  </div>
+</div>

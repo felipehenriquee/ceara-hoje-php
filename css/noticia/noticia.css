@@ -1,0 +1,72 @@
+.caixaNoticia{
+    margin-top:5%;
+    
+    width:100%;
+}
+.divPrincipal{
+    
+    width:100%;
+}
+.caixaInfoNoticia{
+    margin-top: 5%;
+}
+.caixaInfoNoticia a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.caixaInfoNoticia h1{
+    font-size:22px;
+}
+.caixaInfoNoticia h2{
+    font-size: 18px;
+    color:gray;
+    margin-bottom: 15%;
+}
+.caixaInfoNoticia h3{
+    font-size: 14px;
+    color:gray;
+}
+.caixaInfoNoticia img{
+    width:100%;
+}
+.noticiaConteudo{
+    margin-top:15%;
+    font-size:16px;
+}
+
+@media screen and (min-width: 992px){
+    
+    .conteudoNoticia{
+        width:60%;
+    }
+    .caixaInfoNoticia a{
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 16px;
+        margin-bottom:0;
+        
+    }
+    .caixaInfoNoticia h1{
+        font-size:42px;
+        margin-top:0;
+    }
+    .caixaInfoNoticia h2{
+        font-size: 22px;
+        color:gray;
+        margin-bottom: 8%;
+    }
+    .caixaInfoNoticia h3{
+        font-size: 16px;
+        color:gray;
+    }
+    .caixaInfoNoticia img{
+        width:100%;
+    }
+    .caixaInfoNoticia p{
+        margin-top:15%;
+        font-size:18px;
+    }
+
+}
